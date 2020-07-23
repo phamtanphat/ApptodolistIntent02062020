@@ -48,6 +48,8 @@
         app:layout_anchorGravity="bottom">
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
+            app:errorEnabled="true"
+            app:errorTextColor="#f20"
             android:layout_height="wrap_content">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
